@@ -47,7 +47,9 @@ app.get('/apps', (req, res) => {
         .json(results);
 });
 
+module.exports = app;
 
-app.listen(8000, () => {
-    console.log('server started on PORT 8000')
-})
+
+//app.listen(8000, () => {
+   // console.log('server started on PORT 8000')
+//})
